@@ -1,0 +1,335 @@
+body{
+    font-family: 'PT Sans', sans-serif, arial;
+    background-color: white;
+    color:black;
+    padding-bottom: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.bold{
+    font-weight: bold;
+}
+.whiteText{
+    color: white;
+}
+.blackText{
+    color: black;
+}
+p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+.letterSpace4{
+    letter-spacing: 4px;
+}
+.topSpace14{
+    margin-top: 70px;
+}
+.font14{
+    font-size: 14px;
+}
+/*============header============*/
+
+.logo a p{
+    font-size: 48px;
+    color: #2a2029;
+    padding: 10px;
+    margin: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    margin: 10px;
+    padding: 15px;
+    transition: All .5s;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #b34440;
+    color: white;
+}
+..navbar-default{
+    margin-bottom: 0!important;
+    background-color: white;
+    border: none;
+    border-radius: 0;
+}
+.navbar{
+    margin-bottom: 0;
+}
+nav{
+    padding: 10px 0;
+}
+.font16{
+    font-size: 16px;
+}
+.font13{
+    font-size: 13px;
+}
+.grayText{
+    color: #333333;
+}
+
+/*=================carousel===============*/
+.item h1{
+    font-size: 136px;
+    font-weight: 700;
+}
+.item p{
+    font-size: 45px;
+}
+.carousel-caption{
+    bottom: 25%;
+    left: 0;
+    text-align: left;
+    padding-left: 240px;
+}
+.carousel-control{
+    opacity: 1;
+}
+.carousel-control.right,.carousel-control.left{
+    background: none;
+}
+.carousel-control.left{
+}
+.carousel-control.right{
+    right: 10%;
+}
+.carousel-control.left span,.carousel-control.right span{
+    background: white;
+    padding: 10px;
+    color: black;
+}
+.carousel-control.right span{
+    padding: 10px;
+    background: white;
+}
+.carousel-control {
+    top: 85%;
+    left: 71.5%;
+}
+.carousel-indicators{
+    display: none;
+}
+/*=================tours/content===============*/
+hr {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    border: 1px solid #7a7a7a;
+
+}
+.box h3{
+    margin-top: 25px;
+}
+.box img{
+    width: 100%;
+}
+.box p{
+    margin-bottom: 15px;
+}
+.box button{
+    background-color: #b34440;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 50%;
+    transition: All 0.5s;
+    text-align: left;
+}
+.box button:hover{
+    text-align: center;
+}
+
+
+.theWorld{
+    height: 300px;
+    background: url(../images/theworldBg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.theWorld h1{
+    font-size: 66px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.theWorld p{
+    font-size: 30px;
+}
+.theWorld .container{
+}
+.textWrap{
+}
+
+
+/*=================gallery===============*/
+.gallery h2{
+    margin-bottom: 45px;
+}
+.thumbnails{
+    margin-bottom: 30px;
+    position: relative;
+
+    background-color: black;
+}
+
+.thumbnails img{
+    width: 100%;
+    z-index: -1;
+}
+
+.gallery button{
+    background-color: #b34440;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 15%;
+    transition: All 0.5s;
+    text-align: left;
+}
+.gallery button:hover{
+    text-align: center;
+}
+.thumbnails img{
+    opacity: 0.5;
+}
+
+.thumbnails:hover img{
+    opacity: 1;
+}
+
+.thumbnails p{
+    width: 100%;
+    font-size: 24px;
+    position: absolute;
+    z-index: 1;
+    bottom: 25px;
+    left: 0;
+    padding-left: 20px;
+    right: 0;
+}
+.thumbnails:hover p{
+    background-color: rgba(0,0,0,0.5);
+    bottom: 0;
+}
+/*===========footer=============*/
+
+footer{
+    background-color: #2a2029;
+    padding-top: 55px;
+}
+.social{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.social span:nth-child(1){
+    margin-right: 5px;
+}
+footer h2{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+footer .copyright{
+    margin: 130px 0 45px 0;
+}
+.aboutUs p{
+    padding-right: 80px;
+}
+.socialMobile{
+    display: none;
+}
+footer a:hover{
+    color: #b34440;
+}
+
+/*=================media query===============*/
+/*=================only mobile===============*/
+@media (max-width: 768px){
+
+.navbar-toggle{
+    margin-top: 30px;
+    border: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+.navbar-default .navbar-nav>li>a div {
+    display: inline-block;
+    margin-right: 12px;
+}
+.item h1{
+    font-size: 70px;
+}
+.item p{
+    font-size: 23px;
+}
+.carousel-caption{
+    bottom: 25%;
+    left: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+.carousel{
+    height: 325px;
+}
+.carousel .item{
+    height: 325px;
+}
+.carousel-control {
+    top: 82%;
+    left: 60.5%;
+}
+
+.box{
+    margin-top: 30px;
+}
+
+.theWorld p{
+    font-size: 16px;
+}
+.theWorld h1{
+    margin-bottom: 20px;
+}
+
+.gallery button{
+    width: 50%;
+}
+.thumbnails p{
+    font-size: 13px;
+    bottom: 15px;
+}
+
+
+.aboutUs{
+    margin-top: 40px;
+}
+.social{
+    display: none;
+}
+.socialMobile{
+    display: block;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+footer .copyright{
+    margin: 22px 0 45px 0;
+}
+.aboutUs p{
+    padding-right: 80px;
+}
+
+}
