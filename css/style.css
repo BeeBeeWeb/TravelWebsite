@@ -333,3 +333,10 @@ footer .copyright{
 }
 
 }
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    .navbar-default .navbar-nav>li>a {
+    margin: 10px 0;
+}
+}
