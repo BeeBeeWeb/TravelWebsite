@@ -339,4 +339,8 @@ footer .copyright{
     .navbar-default .navbar-nav>li>a {
     margin: 10px 0;
 }
+
+.social{
+    margin-bottom: 20px;
+}
 }
