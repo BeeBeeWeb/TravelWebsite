@@ -15,6 +15,9 @@ a:hover{
     text-decoration: none;
     color: inherit;
 }
+.row{
+	margin: 0;
+}
 .bold{
     font-weight: bold;
 }
@@ -89,7 +92,7 @@ nav{
     bottom: 25%;
     left: 0;
     text-align: left;
-    padding-left: 240px;
+    padding-left: 20%;
 }
 .carousel-control{
     opacity: 1;
@@ -110,6 +113,7 @@ nav{
 .carousel-control.right span{
     padding: 10px;
     background: white;
+	margin-left: 30px;
 }
 .carousel-control {
     top: 85%;
@@ -193,6 +197,7 @@ hr {
     width: 15%;
     transition: All 0.5s;
     text-align: left;
+	margin-left: 15px;
 }
 .gallery button:hover{
     text-align: center;
@@ -238,6 +243,7 @@ footer h2{
 }
 footer .copyright{
     margin: 130px 0 45px 0;
+	padding-left: 15px;
 }
 .aboutUs p{
     padding-right: 80px;
@@ -280,7 +286,7 @@ footer a:hover{
     bottom: 25%;
     left: 0;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 .carousel{
     height: 325px;
@@ -290,7 +296,7 @@ footer a:hover{
 }
 .carousel-control {
     top: 82%;
-    left: 60.5%;
+    left: 68%;
 }
 
 .box{
@@ -342,5 +348,16 @@ footer .copyright{
 
 .social{
     margin-bottom: 20px;
+}
+
+.item h1{
+	font-size: 100px;
+}
+.item p{
+	font-size: 40px;
+}
+
+footer .copyright{
+	margin-top: 70px;
 }
 }
